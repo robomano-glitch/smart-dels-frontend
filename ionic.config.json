@@ -1,0 +1,7 @@
+{
+  "name": "smart-dels-fe",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
