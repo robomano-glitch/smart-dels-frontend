@@ -25,7 +25,6 @@ import { close } from 'ionicons/icons';
 import mainLayout from '@/components/common/main-layout.vue';
 import { IonIcon } from '@ionic/vue';
 import { home, barbell, mic, person } from 'ionicons/icons';
-import topNav from '@/components/topNav.vue';
 
 export default {
     name: 'popukarFoods',
@@ -41,8 +40,7 @@ export default {
             IonRouterOutlet,
             IonTabButton,
             IonTabBar,
-            IonTabs,
-            topNav
+            IonTabs
         },
         data(){
             return{
